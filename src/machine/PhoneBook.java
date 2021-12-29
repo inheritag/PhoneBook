@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 public class PhoneBook {
-	
+	// using HashMap for for 0(1) amortized -> getting and storing of phone numbers.
 	public HashMap<String,Details> pNumbers = new HashMap<String,Details>();
 	
 	public PhoneBook() {
